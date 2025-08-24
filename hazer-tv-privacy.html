@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazer TV Gizlilik Politikası - HazeDev Studios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 80px;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: var(--bg-color);
+        }
+        .privacy-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .privacy-section {
+            margin-bottom: 30px;
+        }
+        .privacy-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        .privacy-section p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .privacy-section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .privacy-section li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .back-button:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+        .language-switch {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .language-switch button {
+            padding: 5px 10px;
+            margin-left: 10px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .language-switch button:hover {
+            background: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                <img src="assets/logo.png" alt="HazeDev Studios Logo">
+                HazeDev Studios
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html#anasayfa">Ana Sayfa</a>
+            <a href="index.html#uygulamalar">Uygulamalar</a>
+            <a href="index.html#ozellikler">Özellikler</a>
+            <a href="index.html#hakkimizda">Hakkımızda</a>
+            <a href="index.html#iletisim">İletişim</a>
+        </div>
+    </nav>
+
+    <section class="privacy-content">
+        <div class="language-switch">
+            <button onclick="showTurkish()">Türkçe</button>
+            <button onclick="showEnglish()">English</button>
+        </div>
+
+        <div id="turkish-content">
+            <h1>Hazer TV Gizlilik Politikası</h1>
+            
+            <div class="privacy-section">
+                <p><strong>Son güncelleme: 23.04.2025</strong></p>
+                <h2>1. Giriş</h2>
+                <p>HazerTV uygulaması ("biz", "bizim" veya "uygulamamız"), kullanıcılarımızın gizliliğine büyük önem vermektedir. Bu gizlilik politikası, uygulamamızın veri toplama, kullanma ve paylaşma uygulamalarını açıklar.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>2. Toplanan Veriler</h2>
+                <p>Uygulamamız aşağıdaki verileri toplar:</p>
+                <ul>
+                    <li>Kullanıcı tercihleri ve ayarları</li>
+                    <li>Favori kanallar ve kategoriler</li>
+                    <li>Bildirim tercihleri</li>
+                    <li>Uygulama kullanım istatistikleri</li>
+                    <li>Firebase Analytics verileri</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>3. Veri Kullanımı</h2>
+                <p>Toplanan veriler şu amaçlarla kullanılır:</p>
+                <ul>
+                    <li>Uygulama performansını iyileştirmek</li>
+                    <li>Kullanıcı deneyimini geliştirmek</li>
+                    <li>Bildirimler göndermek</li>
+                    <li>Reklamları kişiselleştirmek</li>
+                    <li>Hata ayıklama ve sorun giderme</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>4. Veri Paylaşımı</h2>
+                <p>Verileriniz aşağıdaki durumlarda üçüncü taraflarla paylaşılabilir:</p>
+                <ul>
+                    <li>Google AdMob (reklam hizmetleri için)</li>
+                    <li>Firebase (analitik ve bildirimler için)</li>
+                    <li>Yasal zorunluluk durumunda</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>5. Veri Güvenliği</h2>
+                <p>Verilerinizin güvenliği için endüstri standardı güvenlik önlemleri kullanıyoruz:</p>
+                <ul>
+                    <li>Veri şifreleme</li>
+                    <li>Güvenli sunucu bağlantıları</li>
+                    <li>Düzenli güvenlik güncellemeleri</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>6. Çocukların Gizliliği</h2>
+                <p>Uygulamamız 13 yaşın altındaki çocuklara yönelik değildir ve bilerek çocuklardan veri toplamayız.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>7. Değişiklikler</h2>
+                <p>Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler uygulama içinde duyurulacaktır.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>8. İletişim</h2>
+                <p>Sorularınız için: <a href="mailto:hazeer.dev@gmail.com">hazeer.dev@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="english-content" style="display: none;">
+            <h1>Hazer TV Privacy Policy</h1>
+            
+            <div class="privacy-section">
+                <p><strong>Last updated: April 23, 2025</strong></p>
+                <h2>1. Introduction</h2>
+                <p>The HazerTV application ("we", "our" or "our app") takes your privacy seriously. This privacy policy describes our data collection, use, and sharing practices.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>2. Data Collection</h2>
+                <p>Our app collects the following data:</p>
+                <ul>
+                    <li>User preferences and settings</li>
+                    <li>Favorite channels and categories</li>
+                    <li>Notification preferences</li>
+                    <li>App usage statistics</li>
+                    <li>Firebase Analytics data</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>3. Data Usage</h2>
+                <p>Collected data is used for:</p>
+                <ul>
+                    <li>Improving app performance</li>
+                    <li>Enhancing user experience</li>
+                    <li>Sending notifications</li>
+                    <li>Personalizing advertisements</li>
+                    <li>Debugging and troubleshooting</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>4. Data Sharing</h2>
+                <p>Your data may be shared with third parties in the following cases:</p>
+                <ul>
+                    <li>Google AdMob (for advertising services)</li>
+                    <li>Firebase (for analytics and notifications)</li>
+                    <li>When required by law</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>5. Data Security</h2>
+                <p>We use industry-standard security measures to protect your data:</p>
+                <ul>
+                    <li>Data encryption</li>
+                    <li>Secure server connections</li>
+                    <li>Regular security updates</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h2>6. Children's Privacy</h2>
+                <p>Our app is not directed at children under 13 and we do not knowingly collect data from children.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>7. Changes</h2>
+                <p>This privacy policy may be updated from time to time. Changes will be announced within the app.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h2>8. Contact</h2>
+                <p>For questions: <a href="mailto:hazeer.dev@gmail.com">hazeer.dev@gmail.com</a></p>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-button">
+            <i class="fas fa-arrow-left"></i> Ana Sayfaya Dön / Back to Home
+        </a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="HazeDev Studios Logo">
+                <span>HazeDev Studios</span>
+            </div>
+            <div class="footer-links">
+                <a href="index.html#anasayfa">Ana Sayfa</a>
+                <a href="index.html#uygulamalar">Uygulamalar</a>
+                <a href="index.html#ozellikler">Özellikler</a>
+                <a href="index.html#hakkimizda">Hakkımızda</a>
+                <a href="index.html#iletisim">İletişim</a>
+                <a href="ezan-vaktim-privacy.html">Ezan Vaktim Gizlilik Politikası</a>
+                <a href="modern-qr-privacy.html">Modern QR Code Gizlilik Politikası</a>
+                <a href="hazer-tv-privacy.html">Hazer TV Gizlilik Politikası</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 HazeDev Studios. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showTurkish() {
+            document.getElementById('turkish-content').style.display = 'block';
+            document.getElementById('english-content').style.display = 'none';
+        }
+
+        function showEnglish() {
+            document.getElementById('turkish-content').style.display = 'none';
+            document.getElementById('english-content').style.display = 'block';
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
